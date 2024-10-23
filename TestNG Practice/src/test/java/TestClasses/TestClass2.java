@@ -36,7 +36,10 @@ public class TestClass2 {
 		System.out.println("test6");
 	}
 
-	
+	@Test
+	public void methodx() {
+		System.out.println("it is a new method");
+	}
 	
 	
 	@AfterMethod
