@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Main Suite">
+	<test name="FirstTest">
+		<parameter name="testnumber" value="1" />
+		<classes>
+			<class name="TestClasses.TestClass1">
+				<methods>
+					<include name="test1" />
+				</methods>
+			</class>
+			<class name="TestClasses.TestClass2" />
+		</classes>
+	</test>
+</suite>
