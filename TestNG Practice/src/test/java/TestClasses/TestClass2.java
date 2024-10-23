@@ -47,9 +47,7 @@ public class TestClass2 {
 
 	}
 	
-	public void methodz() {
-		System.out.println("This is method z");
-	}
+	
 	@AfterMethod
 	public void afterMethod(ITestResult result) {
 		// Get the class name
