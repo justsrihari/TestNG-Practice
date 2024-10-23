@@ -37,9 +37,7 @@ public class TestClass2 {
 	}
 
 	@Test
-	public void test7() {
-		System.out.println("test7");
-	}
+	
 	
 	@AfterMethod
 	public void afterMethod(ITestResult result) {
