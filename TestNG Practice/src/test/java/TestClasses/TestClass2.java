@@ -36,7 +36,9 @@ public class TestClass2 {
 		System.out.println("test6");
 	}
 
-	
+	public void methody() {
+		System.out.println("THis is method y");
+	}
 	
 	
 	@AfterMethod
